@@ -1,47 +1,82 @@
-//var p = new Array(24);
-//for(var i = 0; i < 24; i++){
-//    p[i]=document.getElementById("p"+i);
-//}
-var p1 = document.getElementById("p1");
-var p2 = document.getElementById("p2");
-var p3 = document.getElementById("p3");
-var p4 = document.getElementById("p4");
-var p5 = document.getElementById("p5");
-var p6 = document.getElementById("p6");
-var p7 = document.getElementById("p7");
-var p8 = document.getElementById("p8");
-var p9 = document.getElementById("p9");
-var p10 = document.getElementById("p10");
-var p11 = document.getElementById("p11");
-var p12 = document.getElementById("p12");
-var p13 = document.getElementById("p13");
-var p14 = document.getElementById("p14");
-var p15 = document.getElementById("p15");
-var p16 = document.getElementById("p16");
-var p17 = document.getElementById("p17");
-var p18 = document.getElementById("p18");
-var p19 = document.getElementById("p19");
-var p20 = document.getElementById("p20");
-var p21 = document.getElementById("p21");
-var p22 = document.getElementById("p22");
-var p23 = document.getElementById("p23");
-var p24 = document.getElementById("p24");
-var p = new Array(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24);
+function main(){
+  var p = chargementImage();
+  var numATrouver = selectionElement(p);
 
+  var val = document.getElementById("btn_validate");
+  val.addEventListener("click", function() {
+      validate(numATrouver);
+  }, false);
 
-for(var i = 0; i < 24; i++){
-    p[i].style.opacity = "1";
-    p[i].addEventListener("click", function() {
-        if(this.style.opacity == "1"){
-            this.style.opacity = "0.5";
-        }else{
-            this.style.opacity = "1";
-        }
-    }, false);
+  ajoutOpacite(p);
+
+}
+
+function chargementImage(){
+  var p = new Array();
+  for (var i = 1; i<25 ;i++){
+    p.push(document.getElementById('p'+i));
+    tabImageSelec[i-1] = false;
+  }
+  return p;
+}
+
+function chgTabImagesSelectionnees(imageId,boolean){
+  var idNum = imageId[1] + (imageId.length==2? null : imageId[2]);
+  var num = parseInt(idNum);
+  tabImageSelec[num-1] = boolean;
+}
+
+function ajoutOpacite(p){
+  for(var i = 0; i < 24; i++){
+      p[i].style.opacity = "1";
+      p[i].addEventListener("click", function() {
+          if(this.style.opacity == "1"){
+              this.style.opacity = "0.5";
+              chgTabImagesSelectionnees(this.id,true);
+          }else{
+              this.style.opacity = "1";
+              chgTabImagesSelectionnees(this.id,false);
+          }
+      }, false);
+  }
+
+  return p;
 }
 
 function selectionElement(tabElements){
   var n = tabElements.length;
   var num = Math.floor(Math.random() * n);
-  return tabElements[num];
+  return num;
 }
+
+function validate(numATrouver){
+  var compt = 0;
+  var res = 0;
+  for (var i = 0; i<24 ; i++){
+    compt += tabImageSelec[i]==true ? 0 : 1;
+    res += tabImageSelec[i]==false ? i : 0;
+  }
+  if (compt > 1){
+    alert("Il vous reste un/des choix");
+  }
+  else if (compt < 1) {
+    alert("Vous devez en laisser au moins un!");
+  }
+  else{
+    alert("Etes vous sûr?");
+    victoireDefaite(numATrouver,res);
+  }
+}
+
+function victoireDefaite(choix, bon){
+  if (choix==bon){
+    alert("victoire");
+  }
+  else{
+    alert("Defaite");
+  }
+}
+
+var tabImageSelec = new Array(25);
+
+main();
