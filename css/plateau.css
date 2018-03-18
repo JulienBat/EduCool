@@ -30,7 +30,42 @@ body{
     margin-left: 5px;
     margin-bottom:2px;
     margin-top: 2px;
-    width: 80px;
-    height: 110px;
+    width: 87px;
+    height: 120px;
     background-color:rgba(200,200,200,0.5);
 }
+
+.blocs{
+    background-color: rgba(255,255,255,0.2);
+    display: inline-block;
+    vertical-align: top;
+    height: 680px;
+    border-radius: 10px;
+}
+
+#images{
+    width: 50%;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+#indices{
+    width: 40%;
+    margin-right: 10px;
+}
+
+#ligne1{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

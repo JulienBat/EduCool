@@ -22,32 +22,35 @@ p, a
 
 body{
     position: center;
-    background-color:rgba(200,200,200,1);
+    background-color:rgba(230,230,230,1);
+    padding: 0px;
+    margin: 0px;
 }
 
 header{
     position: center;
-    background-color:rgba(0,0,200,1);
+    background-color:rgba(0,220,0,0.8);
     overflow:hidden;
     text-align: center;
     margin-bottom:10px;
-    border-radius: 15px;
+    margin: 0px;
+    width: 100%;
 }
 
 #game{
     margin: 0 auto;
-    background-color:rgba(0,0,150,1);
+    margin-bottom: 0px;
+    background-color:rgba(0,150,0,0.7);
     overflow:hidden;
     width:1200px;
     height:800px;
     display:block;
-    border-radius: 15px;
 }
 
 footer{
-    background-color:rgba(0,0,200,1);
+    background-color:rgba(0,220,0,0.8);
     overflow:hidden;
     text-align:center;
     margin-top:10px;
-    border-radius: 15px;
+    margin : 0px;
 }
