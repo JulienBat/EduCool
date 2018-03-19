@@ -65,8 +65,30 @@ body{
     margin-top: 20px;
 }
 
+#mascotte{
+    display: inline-block;
+    width: 300px;
+    height: 375px;
+}
 
+#txt_ind{
+    width: 300px;
+    height: 170px;
+    text-align:center;
+    margin: auto;
+    margin-top: 20px;
+}
 
+#txt_ind img{
+}
+
+#txt_ind p{
+    position: relative;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    top: -130px;
+}
 
 
 
