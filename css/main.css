@@ -22,14 +22,14 @@ p, a
 
 body{
     position: center;
-    background-color:rgba(230,230,230,1);
+    background-color:rgba(128, 160, 53,0.7);
     padding: 0px;
     margin: 0px;
 }
 
 header{
     position: center;
-    background-color:rgba(0,220,0,0.8);
+    background-color:rgba(107, 147, 13,1);
     overflow:hidden;
     text-align: center;
     margin-bottom:10px;
@@ -40,7 +40,7 @@ header{
 #game{
     margin: 0 auto;
     margin-bottom: 0px;
-    background-color:rgba(0,150,0,0.7);
+    background-color:rgba(117, 153, 32,1);
     overflow:hidden;
     width:1200px;
     height:800px;
@@ -48,7 +48,7 @@ header{
 }
 
 footer{
-    background-color:rgba(0,220,0,0.8);
+    background-color:rgba(107, 147, 13,1);
     overflow:hidden;
     text-align:center;
     margin-top:10px;
