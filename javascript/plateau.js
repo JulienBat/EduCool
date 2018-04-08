@@ -15,10 +15,39 @@ function main(){
   ajoutOpacite(listeImage);
   ajoutChgIndice();
 
-  var nbIndice = 2;
-  var indice1 = "Cheveux blonds";
-  var indice2 = "Chauve";
-  var tabIndice = [indice1,indice2];
+  var indice51 = "That isn't a man";
+  var indice52 = "That isn't a woman";
+  var indice53 = "He doesn't have a beard";
+  var indice54 = "He doesn't have a moustache";
+  var indice55 = "He doesn't a big nose";
+  var indice56 = "She doesn't a big nose";
+  var indice57 = "He doesn't have glasses";
+  var indice58 = "She doesn't have glasses";
+  var indice59 = "He doesn't have blue eyes";
+  var indice60 = "He doesn't have brown eyes";
+  var indice61 = "She doesn't have blue eyes";
+  var indice62 = "She doesn't have brown eyes";
+  var indice63 = "He doesn't have big eyebrow";
+  var indice64 = "He isn't bald";
+  var indice65 = "He doesn't have curly hair";
+  var indice66 = "She doesn't have curly hair";
+  var indice67 = "He hasn't straight hair";
+  var indice68 = "She doesn't have straight hair";
+  var indice69 = "He doesn't have white hair";
+  var indice70 = "She doesn't have white hair";
+  var indice71 = "He doesn't have black hair";
+  var indice72 = "She doesn't have black hair";
+  var indice73 = "He doesn't have blond hair";
+  var indice74 = "She doesn't have blond hair";
+  var indice75 = "He doesn't have red hair";
+  var indice76 = "She doesn't have red hair";
+  var indice77 = "He doesn't have brown hair";
+  var indice78 = "She doesn't have brown hair";
+  var indice79 = "He doesn't have a cap";
+  var indice80 = "She doesn't have a cap";
+  var indice81 = "She doesn't have a hat";
+  var indice82 = "He doesn't have a beret";
+  var indice83 = "She doesn't have a beret";
 
   var listePersonnage = creationListePerso(listeImage,tabIndice);
   listeIndices = listePersonnage[numATrouver].listeIndice;
@@ -42,12 +71,152 @@ function creationListePerso(listeImage,tabIndice){
     for (var i=0;i<listeImage.length;i++){
       switch(i){
         case 0:
-          listeIndiceParPerso.push(tabIndice[0]);
-          listeIndiceParPerso.push(tabIndice[1]);
-
+          listeIndiceParPerso.push(tabIndice[33]);
+          listeIndiceParPerso.push(tabIndice[38]);
+          listeIndiceParPerso.push(tabIndice[44]);
+          listeIndiceParPerso.push(tabIndice[50]);
+          listeIndiceParPerso.push(tabIndice[54]);
+          listeIndiceParPerso.push(tabIndice[56]);
+          listeIndiceParPerso.push(tabIndice[58]);
+          listeIndiceParPerso.push(tabIndice[60]);
+          listeIndiceParPerso.push(tabIndice[62]);
+          listeIndiceParPerso.push(tabIndice[63]);
+          listeIndiceParPerso.push(tabIndice[65]);
         case 1:
-          listeIndiceParPerso.push(tabIndice[1]);
-          listeIndiceParPerso.push(tabIndice[0]);
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 2:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[47]);
+          listeIndiceParPerso.push(tabIndice[53]);
+          listeIndiceParPerso.push(tabIndice[55]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 3:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[55]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 4:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[49]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[55]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 5:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 6:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[42]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[47]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[53]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 7:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 8:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[47]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[53]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 9:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[47]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[53]);
+          listeIndiceParPerso.push(tabIndice[55]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 10:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[42]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 11:
+          listeIndiceParPerso.push(tabIndice[33]);
+          listeIndiceParPerso.push(tabIndice[38]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[40]);
+          listeIndiceParPerso.push(tabIndice[60]);
+          listeIndiceParPerso.push(tabIndice[43]);
+          listeIndiceParPerso.push(tabIndice[48]);
+          listeIndiceParPerso.push(tabIndice[52]);
+          listeIndiceParPerso.push(tabIndice[54]);
+          listeIndiceParPerso.push(tabIndice[56]);
+          listeIndiceParPerso.push(tabIndice[58]);
+          listeIndiceParPerso.push(tabIndice[60]);
+          listeIndiceParPerso.push(tabIndice[62]);
+          listeIndiceParPerso.push(tabIndice[63]);
+          listeIndiceParPerso.push(tabIndice[65]);
 
       }
       listePersonnage[i] = new Personnage(listeImage[i],listeIndiceParPerso);
