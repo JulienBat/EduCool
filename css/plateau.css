@@ -22,6 +22,7 @@ body{
     margin-right:30px;
     opacity: 1;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .btn a{
@@ -41,6 +42,7 @@ body{
     width: 87px;
     height: 120px;
     background-color:rgba(200,200,200,0.5);
+    cursor: pointer;
 }
 
 
@@ -107,6 +109,7 @@ body{
     margin: 0px;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .clue a{
