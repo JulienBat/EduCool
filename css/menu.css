@@ -19,6 +19,9 @@ p, a
 
 body{
     text-align:center;
+    background-image: url("../images/left-pedo.png");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 .btn{
