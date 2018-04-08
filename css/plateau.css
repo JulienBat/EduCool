@@ -19,6 +19,7 @@ body{
     background-color:rgba(200,200,200,1);
     margin-top: 50px;
     margin-left:30px;
+    margin-bottom: 0px;
     margin-right:30px;
     opacity: 1;
     border-radius: 10px;
@@ -56,6 +57,7 @@ body{
 }
 
 #images{
+    height: 700px;
     width: 50%;
     margin-left: 10px;
     padding: 0px;
@@ -85,7 +87,7 @@ body{
     background-image: url("../images/txt_ind.png");
     text-align:center;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 110px;
 }
 
