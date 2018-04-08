@@ -57,24 +57,28 @@ function validate(numATrouver){
     res += tabImageSelec[i]==false ? i : 0;
   }
   if (compt > 1){
-    alert("Il vous reste un/des choix");
+    alert("There still some choises\nIl vous reste des choix");
   }
   else if (compt < 1) {
-    alert("Vous devez en laisser au moins un!");
+    alert("You must at least leave one!\nVous devez en laisser au moins un!");
   }
   else{
-    alert("Etes vous sûr?");
+    alert("Are you sure\nEtes vous sûr?");
     victoireDefaite(numATrouver,res);
   }
 }
 
 function victoireDefaite(choix, bon){
   if (choix==bon){
+<<<<<<< HEAD
     alert("Victoire");
     window.location.replace("file:///home/blackstar/Documents/Telecom/2A/Projets/anglais/EduCool/menu.html")
+=======
+    alert("Victory !\nVictoire !");
+>>>>>>> Integration
   }
   else{
-    alert("Defaite");
+    alert("loose\ndefaite");
   }
 }
 
