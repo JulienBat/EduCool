@@ -15,6 +15,7 @@ function main(){
   ajoutOpacite(listeImage);
   ajoutChgIndice();
 
+
   var indice1 = "That's a man";
   var indice2 = "That's a woman";
   var indice3 = "He has a beard";
@@ -48,6 +49,41 @@ function main(){
   var indice31 = "She has a hat";
   var indice32 = "He has a beret";
   var indice33 = "She has a beret";
+  
+  var indice51 = "That isn't a man";
+  var indice52 = "That isn't a woman";
+  var indice53 = "He doesn't have a beard";
+  var indice54 = "He doesn't have a moustache";
+  var indice55 = "He doesn't have a big nose";
+  var indice56 = "She doesn't have a big nose";
+  var indice57 = "He doesn't have glasses";
+  var indice58 = "She doesn't have glasses";
+  var indice59 = "He doesn't have blue eyes";
+  var indice60 = "He doesn't have brown eyes";
+  var indice61 = "She doesn't have blue eyes";
+  var indice62 = "She doesn't have brown eyes";
+  var indice63 = "He doesn't have big eyebrow";
+  var indice64 = "He isn't bald";
+  var indice65 = "He doesn't have curly hair";
+  var indice66 = "She doesn't have curly hair";
+  var indice67 = "He hasn't straight hair";
+  var indice68 = "She doesn't have straight hair";
+  var indice69 = "He doesn't have white hair";
+  var indice70 = "She doesn't have white hair";
+  var indice71 = "He doesn't have black hair";
+  var indice72 = "She doesn't have black hair";
+  var indice73 = "He doesn't have blond hair";
+  var indice74 = "She doesn't have blond hair";
+  var indice75 = "He doesn't have red hair";
+  var indice76 = "She doesn't have red hair";
+  var indice77 = "He doesn't have brown hair";
+  var indice78 = "She doesn't have brown hair";
+  var indice79 = "He doesn't have a cap";
+  var indice80 = "She doesn't have a cap";
+  var indice81 = "She doesn't have a hat";
+  var indice82 = "He doesn't have a beret";
+  var indice83 = "She doesn't have a beret";
+  
   var tabIndice = [indice1,indice2,indice3,indice4,indice5,indice6,indice7,indice8,indice9,indice10,indice11,indice12,indice13,indice14,indice15,indice16,indice17,indice18,indice19,indice20,indice21,indice22,indice23,indice24,indice25,indice26,indice27,indice28,indice29,indice30,indice31,indice32,indice33,indice51,indice52,indice53,indice54,indice55,indice56,indice57,indice58,indice59,indice60,indice61,indice62,indice63,indice64,indice65,indice66,indice67,indice68,indice69,indice70,indice71,indice72,indice73,indice74,indice75,indice76,indice77,indice78,indice79,indice80,indice81,indice82,indice83];
 
   var listePersonnage = creationListePerso(listeImage,tabIndice);
@@ -71,6 +107,152 @@ function creationListePerso(listeImage,tabIndice){
     var listeIndiceParPerso = new Array();
     for (var i=0;i<listeImage.length;i++){
       switch(i){
+        case 0:
+          listeIndiceParPerso.push(tabIndice[33]);
+          listeIndiceParPerso.push(tabIndice[38]);
+          listeIndiceParPerso.push(tabIndice[44]);
+          listeIndiceParPerso.push(tabIndice[50]);
+          listeIndiceParPerso.push(tabIndice[54]);
+          listeIndiceParPerso.push(tabIndice[56]);
+          listeIndiceParPerso.push(tabIndice[58]);
+          listeIndiceParPerso.push(tabIndice[60]);
+          listeIndiceParPerso.push(tabIndice[62]);
+          listeIndiceParPerso.push(tabIndice[63]);
+          listeIndiceParPerso.push(tabIndice[65]);
+        case 1:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 2:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[47]);
+          listeIndiceParPerso.push(tabIndice[53]);
+          listeIndiceParPerso.push(tabIndice[55]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 3:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[55]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 4:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[49]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[55]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 5:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 6:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[42]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[47]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[53]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 7:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 8:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[47]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[53]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[59]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 9:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[39]);
+          listeIndiceParPerso.push(tabIndice[41]);
+          listeIndiceParPerso.push(tabIndice[46]);
+          listeIndiceParPerso.push(tabIndice[47]);
+          listeIndiceParPerso.push(tabIndice[51]);
+          listeIndiceParPerso.push(tabIndice[53]);
+          listeIndiceParPerso.push(tabIndice[55]);
+          listeIndiceParPerso.push(tabIndice[57]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 10:
+          listeIndiceParPerso.push(tabIndice[34]);
+          listeIndiceParPerso.push(tabIndice[35]);
+          listeIndiceParPerso.push(tabIndice[36]);
+          listeIndiceParPerso.push(tabIndice[37]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[42]);
+          listeIndiceParPerso.push(tabIndice[45]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[64]);
+        case 11:
+          listeIndiceParPerso.push(tabIndice[33]);
+          listeIndiceParPerso.push(tabIndice[38]);
+          listeIndiceParPerso.push(tabIndice[61]);
+          listeIndiceParPerso.push(tabIndice[40]);
+          listeIndiceParPerso.push(tabIndice[60]);
+          listeIndiceParPerso.push(tabIndice[43]);
+          listeIndiceParPerso.push(tabIndice[48]);
+          listeIndiceParPerso.push(tabIndice[52]);
+          listeIndiceParPerso.push(tabIndice[54]);
+          listeIndiceParPerso.push(tabIndice[56]);
+          listeIndiceParPerso.push(tabIndice[58]);
+          listeIndiceParPerso.push(tabIndice[60]);
+          listeIndiceParPerso.push(tabIndice[62]);
+          listeIndiceParPerso.push(tabIndice[63]);
+          listeIndiceParPerso.push(tabIndice[65]);
           
         case 12:
             listeIndiceParPerso.push(tabIndice[0]);
@@ -232,7 +414,7 @@ function ajoutOpacite(p){
 function selectionElement(tabElements){
   var n = tabElements.length;
   var num = Math.floor(Math.random() * n);
-  return 1;// num;
+  return num;
 }
 
 function validate(numATrouver){
@@ -243,24 +425,24 @@ function validate(numATrouver){
     res += tabImageSelec[i]==false ? i : 0;
   }
   if (compt > 1){
-    alert("There still some choises\nIl vous reste des choix");
+    alert("You can only select one person");
   }
   else if (compt < 1) {
-    alert("You must at least leave one!\nVous devez en laisser au moins un!");
+    alert("You should select someone");
   }
   else{
-    alert("Are you sure\nEtes vous sûr?");
+    alert("Are you sure ?");
     victoireDefaite(numATrouver,res);
   }
 }
 
 function victoireDefaite(choix, bon){
   if (choix==bon){
-    alert("Victoire");
-    window.location.replace("file:///home/blackstar/Documents/Telecom/2A/Projets/anglais/EduCool/menu.html")
+    alert("Victory !");
+    window.location.replace("menu.html")
   }
   else{
-    alert("loose\ndefaite");
+    alert("You loose");
   }
 }
 
