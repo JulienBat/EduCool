@@ -70,12 +70,8 @@ function validate(numATrouver){
 
 function victoireDefaite(choix, bon){
   if (choix==bon){
-<<<<<<< HEAD
     alert("Victoire");
     window.location.replace("file:///home/blackstar/Documents/Telecom/2A/Projets/anglais/EduCool/menu.html")
-=======
-    alert("Victory !\nVictoire !");
->>>>>>> Integration
   }
   else{
     alert("loose\ndefaite");
