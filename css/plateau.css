@@ -33,4 +33,18 @@ body{
     width: 80px;
     height: 110px;
     background-color:rgba(200,200,200,0.5);
+
+}
+
+#btn_retour a{
+    background-color: rgba(200,200,200,1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#btn_retour{
+  padding-left: 0px;
+  padding-right:0px;
 }

@@ -46,7 +46,7 @@ function ajoutOpacite(p){
 function selectionElement(tabElements){
   var n = tabElements.length;
   var num = Math.floor(Math.random() * n);
-  return num;
+  return  1;//num;
 }
 
 function validate(numATrouver){
@@ -70,11 +70,17 @@ function validate(numATrouver){
 
 function victoireDefaite(choix, bon){
   if (choix==bon){
-    alert("victoire");
+    alert("Victoire");
+    window.location.replace("file:///home/blackstar/Documents/Telecom/2A/Projets/anglais/EduCool/menu.html")
   }
   else{
     alert("Defaite");
   }
+}
+
+function listeIndices(){
+  var caracteristiques = ["blond","brun","barbe","lunettes"];
+
 }
 
 var tabImageSelec = new Array(25);
