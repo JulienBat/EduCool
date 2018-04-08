@@ -16,8 +16,8 @@ function main(){
   ajoutChgIndice();
 
 
-  var indice1 = "That's a man";
-  var indice2 = "That's a woman";
+  var indice1 = "It's a man";
+  var indice2 = "It's a woman";
   var indice3 = "He has a beard";
   var indice4 = "He has a moustache";
   var indice5 = "He has a big nose";
@@ -50,8 +50,8 @@ function main(){
   var indice32 = "He has a beret";
   var indice33 = "She has a beret";
 
-  var indice51 = "That isn't a man";
-  var indice52 = "That isn't a woman";
+  var indice51 = "It's not a man";
+  var indice52 = "It's not a woman";
   var indice53 = "He doesn't have a beard";
   var indice54 = "He doesn't have a moustache";
   var indice55 = "He doesn't have a big nose";
