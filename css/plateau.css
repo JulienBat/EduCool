@@ -17,10 +17,11 @@ body{
 .btn{
     display:inline-block;
     background-color:rgba(200,200,200,1);
-    margin-top:50px;
+    margin-top: 50px;
     margin-left:30px;
     margin-right:30px;
     opacity: 1;
+    border-radius: 10px;
 }
 
 .btn a{
@@ -29,6 +30,7 @@ body{
     padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    text-decoration: blink;
 }
 
 .img_p{
@@ -48,6 +50,7 @@ body{
     vertical-align: top;
     height: 680px;
     border-radius: 10px;
+    padding-top: 20px;
 }
 
 #images{
@@ -73,24 +76,71 @@ body{
 }
 
 #txt_ind{
+    display: inline-block;
+    overflow: hidden;
     width: 300px;
     height: 170px;
+    background-image: url("../images/txt_ind.png");
     text-align:center;
     margin: auto;
     margin-top: 20px;
-    margin-left: 130px;
+    margin-left: 110px;
 }
 
 #txt_ind img{
 }
 
 #txt_ind p{
-    position: relative;
+    position: inline-block;
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
     font-size: 30px;
     padding: 0px;
     margin: 0px;
-    top: -130px;
+    margin-top: 10px;
 }
+
+.clue{
+    display: inline-block;
+    background-color: rgba(200,200,200,1);
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.clue a{
+    text-decoration: blink;
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#ind_prec{
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+#ind_suiv{
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
